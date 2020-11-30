@@ -1,0 +1,21 @@
+.folder {
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-image:url('./../../assets/images/icon-folder.png');
+  background-position:50% 50%;
+}
+
+.file {
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-image:url('./../../assets/images/file.png');
+  background-position:50% 50%;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}

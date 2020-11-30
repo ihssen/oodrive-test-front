@@ -1,0 +1,6 @@
+<div *ngFor="let item of items" class="content">
+  <oo-item
+    [item]="item"
+    (click)="getItem(item)"
+  ></oo-item>
+</div>

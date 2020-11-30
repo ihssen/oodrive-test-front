@@ -1,0 +1,33 @@
+{
+  "items": [
+    {
+      "id": "wxyt-lx3IJ",
+      "name": "file_1.txt",
+      "folder": false,
+      "creation": "2020-11-30T08:39:14.641Z",
+      "modification": "2020-11-30T08:39:14.641Z"
+    },
+    {
+      "id": "4GKfuHFsIR",
+      "name": "file_2.txt",
+      "folder": false,
+      "creation": "2020-11-30T08:39:14.641Z",
+      "modification": "2020-11-30T08:39:14.641Z"
+    },
+    {
+      "id": "KUXgB1CV7",
+      "name": "folder_1",
+      "folder": true,
+      "creation": "2020-11-30T08:39:14.641Z",
+      "modification": "2020-11-30T08:39:14.641Z"
+    },
+    {
+      "id": "vSK6WGbA4b",
+      "parentId": "KUXgB1CV7",
+      "name": "file_3.txt",
+      "folder": false,
+      "creation": "2020-11-30T08:39:14.641Z",
+      "modification": "2020-11-30T08:39:14.641Z"
+    }
+  ]
+}

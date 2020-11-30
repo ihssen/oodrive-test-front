@@ -1,0 +1,19 @@
+:host {
+  height: 100%;
+}
+  .container {
+    display: flex;
+    border: double;
+    height: 100%;
+    .sidebar {
+      border-right: double;
+      flex: 1 0 0;
+    }
+    .content {
+      flex: 3 0 0;
+      .path {
+        border-bottom: double;
+      }
+    }
+  }
+

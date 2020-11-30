@@ -1,0 +1,43 @@
+{
+  "name": "front-technical-test",
+  "version": "1.0.0",
+  "description": "Technical test for Frontend Engineer position at Oodrive",
+  "repository": {
+    "url": "https://github.com/oodrive/front-technical-test"
+  },
+  "author": "Oodrive",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "ng serve --disableHostCheck",
+    "build": "ng build"
+  },
+  "dependencies": {
+    "@angular/common": "8.1.3",
+    "@angular/compiler": "8.1.3",
+    "@angular/core": "8.1.3",
+    "@angular/forms": "8.1.3",
+    "@angular/platform-browser": "8.1.3",
+    "@angular/platform-browser-dynamic": "8.1.3",
+    "rxjs": "^6.6.3"
+  },
+  "devDependencies": {
+    "@angular-builders/custom-webpack": "8.1.0",
+    "@angular-devkit/build-angular": "^0.801.2",
+    "@angular/cli": "8.1.2",
+    "@angular/compiler-cli": "8.1.3",
+    "@angularclass/hmr": "^2.1.3",
+    "connect-busboy": "0.0.2",
+    "cors": "2.8.5",
+    "css-loader": "^3.6.0",
+    "globby": "^10.0.2",
+    "lowdb": "^1.0.0",
+    "mime-types": "^2.1.27",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^7.3.1",
+    "shortid": "^2.2.16",
+    "tslint": "^5.20.1",
+    "tslint-eslint-rules": "^5.4.0",
+    "zone.js": "^0.9.1"
+  }
+}

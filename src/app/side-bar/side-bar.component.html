@@ -1,0 +1,12 @@
+<div class="sidebar">
+  <label (click)="createFolder = true">Add Folder +</label>
+  <label (click)="createFile = true">Add File +</label>
+</div>
+
+<div *ngIf="createFolder">
+  <input type="name" name="name" [(ngModel)]="name" (keyup.enter)="addFolder()" />
+</div>
+
+<div *ngIf="createFile">
+  <input type="file" name="file" multiple="false" (change)="onSelectionChange($event.target.files[0])" />
+</div>
